@@ -1,0 +1,8 @@
+# Mac DS_Store Files
+.DS_Store
+
+# phpstorm project files
+.idea
+
+/vendor/
+
