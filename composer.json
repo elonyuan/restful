@@ -7,7 +7,7 @@
     "require": {
         "yiisoft/yii2": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "\\hongdoulvdou\\restful\\": ""
