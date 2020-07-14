@@ -4,7 +4,7 @@ namespace restful\db;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
-use xiang\behaviors\SoftDeleteBehavior;
+use restful\behaviors\SoftDeleteBehavior;
 
 /**
  * AR base controller
@@ -23,7 +23,7 @@ class ActiveRecord extends \yii\db\ActiveRecord
         ];
 
         // if have deleted_at
-        if (SOFT_DELETE_SWITCH && isset(static::getTableSchema()->columns['deleted_at'])) {
+        if (isset(static::getTableSchema()->columns['deleted_at'])) {
             $behaviors['softDelete'] = [
                 'class' => SoftDeleteBehavior::className()
             ];
