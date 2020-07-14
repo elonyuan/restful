@@ -1,6 +1,6 @@
 <?php
 
-namespace xiang\behaviors;
+namespace restful\behaviors;
 
 use Yii;
 use yii\base\Behavior;

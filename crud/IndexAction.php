@@ -1,6 +1,6 @@
 <?php
 
-namespace xiang\crud;
+namespace restful\crud;
 
 use Yii;
 use yii\web\Response;

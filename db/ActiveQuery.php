@@ -1,6 +1,6 @@
 <?php
 
-namespace xiang\db;
+namespace restful\db;
 
 use Yii;
 
